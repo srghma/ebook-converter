@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ebook-convert": "^2.0.1",
+    "@npmcli/move-file": "^2.0.0",
+    "ebook-convert": "git+ssh://github.com/srghma/ebook-convert#patch-1",
+    "move-file": "^3.0.0",
     "recursive-readdir": "^2.2.2"
   }
 }
